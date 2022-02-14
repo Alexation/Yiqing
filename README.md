@@ -1,11 +1,6 @@
 <p align="center">
   <img src="http://47.108.208.140:8002/i/2022/02/14/p5q7iz.png" height="300" />
 </p>
-<p align="center">
-<h2 style="text-align:center;font-weight:700;color:#B399FF"><i>CTGU Auto Safety Report</i></h2>
-
-
-</p>
 
 <span id="nav-2"></span>
 
