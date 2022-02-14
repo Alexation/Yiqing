@@ -5,7 +5,11 @@ from gevent import pywsgi
 from flask_cors import CORS
 
 app = Flask(__name__, static_url_path='/', static_folder='./../../flask-dist', template_folder='./../../flask-dist')
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://数据库账号:数据库密码@数据库ip:数据库端口/数据库名称'
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://你的数据库账号:你的数据库密码@数据库ip:数据库端口/数据库名称'
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 # 如果设置成True(默认情况)，Flask - SQLAlchemy将会追踪对象的修改并且发送信号。这需要额外的内存， 如果不必要的可以禁用它。
 app.config['SQLALCHEMY_UCSO'] = True
