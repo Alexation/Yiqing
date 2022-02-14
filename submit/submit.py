@@ -9,7 +9,7 @@ wrong_users = []
 
 def ErrorLog(msg):
     now = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-    with open('/home/yiqing/log.txt', mode='a') as f:
+    with open('日志输出路径/log.txt', mode='a') as f:
         f.write('--- {} --- {}\n'.format(now, msg))
         f.close()
 
