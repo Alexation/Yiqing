@@ -107,7 +107,7 @@ export default {
 
           // 发请求
           this.$axios
-            .post("http://47.108.208.140:5000/addUser", data, {
+            .post("后台数据库地址", data, {
               headers: headers,
             })
             .then(() => {
