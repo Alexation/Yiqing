@@ -114,8 +114,9 @@ export default {
               // console.log(res)
             });
 
-          // 提交完毕重置表格，避免恶意提交
+          // 提交完毕后重置表格，避免重复提交
           this.$refs[formName].resetFields();
+
         } else {
           this.wrong();
           return false;
