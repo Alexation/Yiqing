@@ -11,7 +11,7 @@
 
 - [内容介绍](#nav-2)
 - [项目介绍](#nav-3)
-  - [项目网站](#nav-3-1)
+  - [跳转链接](#nav-3-1)
   - [背景](#nav-3-2)
 - [相关项目演示](#nav-4)
 - [功能特色](#nav-5)
@@ -31,9 +31,11 @@
 
 <span id="nav-3-1"></span>
 
-### 项目网站
+### 跳转链接
 
 [项目地址](http://47.108.208.140)
+
+[实现过程](http://47.108.208.140)
 
 <span id="nav-3-2"></span>
 
@@ -63,24 +65,12 @@
 ## 架构
 
 ```
-|—— .gitee                          Gitee 配置文件
-| |—— ISSUE_TEMPLATE.md             Gitee Issue 模板
-| |—— PULL_REQUEST_TEMPLATE.md      Gitee PR 模板
-|—— .github                         Github 配置文件
-| |—— ISSUE_TEMPLATE                Github Issue 模板
-| | |—— issue-template-bug.md       Github Issue Bug 模板
-| | |—— issue-template-feature.md   Github Issue Feature 模板
-| |—— workflows                     Github 工作流
-| | |—— deploy-for-hugo.yml         Github 工作流 Hugo 示例
-| | |—— deploy-for-nodejs.yml       Github 工作流 NodeJS 示例
-| |—— pull-request-template.md      Github PR 模板
-|—— website                         项目网站
-|—— CHANGELOG.md                    发布日志
-|—— LICENSE                         许可证
-|—— README.md                       英语 README
-|—— README.zh-Hans.md               其他语言 README
-|—— README.tmpl.md                  README 模板
-
+|—— flask                           后端配置文件
+| |—— api.py                        后端接口
+| |—— models.py			       	   链接数据库
+|—— submit   					  发送请求
+| |—— submit.py                     自动上报脚本
+|—— vue                             vue2前端
 ```
 
 <span id="nav-7"></span>

@@ -16,8 +16,8 @@ def ErrorLog(msg):
 
 try:
     # Connect MySQL
-    connection = pymysql.connect(host='47.108.208.140', user='root', passwd='2Z4hRbf4BwMyjWMC',
-                                 port=3306, db='yiqing', charset='utf8')
+    connection = pymysql.connect(host='数据库地址', user='数据库账号', passwd='数据库密码',
+                                 port=3306, db='数据库名称', charset='utf8')
     cursor = connection.cursor()
 
     # Get user and password
