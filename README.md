@@ -68,8 +68,8 @@
 ```
 |—— flask                           后端配置文件
 | |—— api.py                        后端接口
-| |—— models.py			       	   链接数据库
-|—— submit   					  发送请求
+| |—— models.py                     链接数据库
+|—— submit                          发送请求
 | |—— submit.py                     自动上报脚本
 |—— vue                             vue2前端
 ```
